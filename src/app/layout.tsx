@@ -1,17 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import localFont from "next/font/local";
+import { Inter,Great_Vibes} from "next/font/google";
 import "./globals.css";
 import Header from "./components/navbar";
 import Footer from "./components/footer";
 import Bottom from "./components/bottom";
-import { Great_Vibes } from '@next/font/google';
 
-const helvetica_init = localFont({
-  src: "./fonts/Helvetica.ttf",
-  weight: "400",
-  variable: "--font-helvetica",
-});
+
 const inter_init = Inter({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
