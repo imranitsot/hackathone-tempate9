@@ -2,3 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+.navbar__link:hover {
+    color: #FF9F0D;
+    transition: all 0.4s;
+  }
+  
+  .navbar__link::after {
+    position: absolute;
+    content: "";
+    background-color: #FF9F0D;
+    height: 7px;
+    width: 7px;
+    border-radius: 5px;
+    top: 22px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    scale: 0;
+    /* transform: scaleX(0); */
+    /* transform-origin: center; */
+    transition: all 0.4s;
+  }
+  
+  .navbar__link:hover::after {
+    scale: 1;
+    /* transform: scaleX(1); */
+    /* transform-origin: center; */
+  }
+  
+  .helvetica {
+    font-family: var(--font-helvetica);
+  }
+  
+  .inter {
+  
+    font-family: var(--font-inter);
+  }
+  .greatVibes{
+    font-family: var(--font-greatVibes);
+  }
