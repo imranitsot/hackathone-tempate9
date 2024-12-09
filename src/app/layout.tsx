@@ -34,7 +34,7 @@ export default function RootLayout({
   href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
   rel="stylesheet"
 />
-      <body className={`${inter_init.variable} ${greatVibes_init.variable} ${helvetica_init.variable}`}>
+      <body className={`${inter_init.variable} ${greatVibes_init.variable}`}>
         <Header />
         {children}
         <Footer />
