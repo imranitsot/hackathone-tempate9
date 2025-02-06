@@ -36,7 +36,7 @@ const Footer = () => {
             </p>
             <div className="flex items-start gap-4 mt-4">
               <div className="bg-[#FF9F0D] p-2 rounded-md">
-                <Image src="/images/icon.png" alt="icon" width={39} height={39} />
+                <Image src="/images/icon.png" alt="icon" width={39} height={39} priority />
               </div>
               <div>
                 <p className="font-inter text-[14px] md:text-[16px] font-normal text-[#FFFFFF]">Opening Hours</p>
@@ -68,7 +68,7 @@ const Footer = () => {
             <h2 className="font-bold text-[16px] md:text-[18px] text-[#FFFFFF] mb-4">Recent Posts</h2>
             {['Is fast food good for your body?', 'Change your food habit with organic food', 'Do you like fast food for your life?'].map((post, index) => (
               <div key={index} className="flex gap-4 mb-4">
-                <Image src="/images/fo.png" alt="footer" width={80} height={80} className="w-[75px] h-[75px] object-cover" />
+                <Image src="/images/fo.png" alt="footer" width={80} height={80} className="w-[75px] h-[75px] object-cover" priority />
                 <div>
                   <p className="text-[14px] md:text-[16px] font-helvetica font-normal text-[#FFFFFF]">{post}</p>
                   <p className="text-[12px] md:text-[14px] font-helvetica font-normal text-[#FFFFFF] opacity-50">February 28, 2022</p>
