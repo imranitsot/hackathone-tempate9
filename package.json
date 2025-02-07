@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@next/font": "^14.2.15",
+    "@sanity/icons": "^3.5.7",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.74.1",
     "axios": "^1.7.9",
@@ -20,6 +21,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.4.0",
+    "react-is": "^19.0.0",
     "sanity": "^3.74.1",
     "styled-components": "^6.1.15"
   },
